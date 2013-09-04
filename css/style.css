@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*------------------------------------*\
+    $BOX-SIZING
+\*------------------------------------*/
+
+	*{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/*------------------------------------*\
+    $IMAGES QUICK STYLES
+\*------------------------------------*/
+
+	img{
+		max-width: 100%;
+		width: 100%;
+	}
+
+/*------------------------------------*\
+    $LINKS DEFAULT COLOR (IE8+)
+\*------------------------------------*/
+
+	a{
+		color: inherit;
+		text-decoration: none;
+	}
+
+/*------------------------------------*\
+    $CLEARING FLOATS
+\*------------------------------------*/
+
+	.cf:before,
+	.cf:after {
+	    content: " ";
+	    display: table;
+	}
+	
+	.cf:after {
+	    clear: both;
+	}
+
+/*------------------------------------*\
+    $GRID
+\*------------------------------------*/
+
+		.grid{
+			font-size: .1px;
+			text-align: justify;
+		}
+		
+			.grid:after{
+				content: '';
+				display: inline-block;
+				width: 100%;
+			}	
