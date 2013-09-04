@@ -18,7 +18,6 @@
 
 	img{
 		max-width: 100%;
-		width: 100%;
 	}
 
 /*------------------------------------*\
@@ -57,4 +56,10 @@
 				content: '';
 				display: inline-block;
 				width: 100%;
-			}	
+			}
+			
+			.grid .break{
+				display: inline-block;
+				height: 0;
+				width: 100%
+			}
